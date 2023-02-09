@@ -48,7 +48,7 @@ h2 {
 
 #add-product-btn, #delete-product-btn, .cancel-btn, .save-btn {
     
-    background: #15852f;
+    background: black;
     border: none;
     border-radius: 10px;
     color: #f7fcf8;
@@ -91,7 +91,7 @@ h2 {
 .error {
     
     color: red;
-    margin-left: 108px;
+    margin-left: 85px;
     margin-bottom: 5px;
     font-family: Trebuchet, sans-serif;
     align-self: auto;
@@ -149,6 +149,7 @@ footer p {
     text-align: center;
     font-family: Trebuchet, sans-serif;
     font-size: small;
+    font-weight: bold;
 }
 
 footer {
