@@ -2,8 +2,8 @@
     <head>
         <meta charset="utf-8">
         <title>Products List</title>
-        <link rel="stylesheet" type="text/css" href="../../Public/CSS/Styles.css">
-         <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" type="text/css" href="../../Public/CSS/Style.css">
+         <link rel="icon" type="image/x-icon" href="../../Public/favicon.png">
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
         <h2>Products List</h2>
     </head>
