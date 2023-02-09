@@ -1,0 +1,261 @@
+h2 {
+    font-family: Trebuchet, sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+.buttons {
+    font-family: sans-serif;
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+#add-product-btn {
+    
+    height: 35px;
+    width: 45px;
+}
+
+#add-product-btn a, .cancel-btn a, .save-btn a, #delete-product-btn a {
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+#delete-product-btn {
+    
+    height: 35px;
+    width: 115px;
+}
+
+.cancel-btn {
+    
+    height: 35px;
+    width: 70px;
+    text-transform: uppercase;
+}
+
+.save-btn {
+    
+    height: 35px;
+    width: 55px;
+    text-transform: uppercase;
+}
+
+#add-product-btn, #delete-product-btn, .cancel-btn, .save-btn {
+    
+    background: #15852f;
+    border: none;
+    border-radius: 10px;
+    color: #f7fcf8;
+    
+}
+
+#fields {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+
+.label {
+    
+    font-weight: bold;
+}
+
+.textfields {
+    font-family: Trebuchet, sans-serif;
+}
+
+#sku {
+    margin-left: 40px;
+    height: 25px;
+    width: 220px;
+}
+
+#name {
+    margin-left: 30px;
+    height: 25px;
+    width: 220px;
+}
+
+#price {
+    margin-left: 12px;
+    height: 25px;
+    width: 220px;
+}
+
+.error {
+    
+    color: red;
+    margin-left: 108px;
+    margin-bottom: 5px;
+    font-family: Trebuchet, sans-serif;
+    align-self: auto;
+
+}
+
+#productTypes {
+    
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.productType {
+    
+    font-family: Trebuchet, sans-serif;
+    font-weight: bold;
+      
+}
+
+#productType {
+    
+    margin-left: 5px;
+    width: 140px;
+    height: 30px;
+}
+
+#DVD, #Furniture, #Book {
+    
+    font-family: Trebuchet, sans-serif;
+}
+
+.error-switcher {
+    
+    color: red;
+    font-family: Trebuchet, sans-serif;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
+.fetchedData {
+    
+    border-style: groove;
+    border-width: thin;
+    width: 200px;
+    height: 145px;
+    font-size: small;
+    font-family: Trebuchet, sans-serif;
+    padding-left: 10px;
+    
+}
+
+footer p {
+    
+    text-align: center;
+    font-family: Trebuchet, sans-serif;
+    font-size: small;
+}
+
+footer {
+    
+    margin-top: 520px;
+}
+
+.listedProducts {
+    margin: auto;
+    text-align: center;
+
+}
+
+.listedProducts tr, .listedProducts td {
+    
+    font-weight: 600;
+    
+}
+
+.delete-checkbox {
+    
+    margin-top: 10px;
+}
+
+.container {
+    
+    margin-top: 20px;
+    float: left;
+    margin-left: 25px;
+    position: center;
+    padding-left: 50px;
+    margin-bottom: 15px;
+
+}
+
+.dvdLabel, .dvdAttribute p, .heightLabel, .widthLabel, .lengthLabel, .furnitureAttribute p, .booksLabel, .booksAttribute p {
+    
+    font-family: Trebuchet, sans-serif;
+
+}
+
+.dvdInput {
+    
+    width: 85px;
+    margin-left: 40px;
+    height: 25px;
+}
+
+.booksInput {
+    
+    width: 85px;
+    margin-left: 20px;
+     height: 25px;
+}
+
+.heightInput, .widthInput, .lengthInput {
+    
+    width: 85px;
+     height: 25px;
+
+}
+
+.heightInput {
+    
+    margin-left: 20px;
+}
+
+.widthInput {
+    
+    margin-left: 25px;
+    
+}
+
+.lengthInput {
+    
+    margin-left: 15px;
+}
+
+
+.dvdLabel, .heightLabel, .widthLabel, .lengthLabel, .booksLabel {
+    
+    font-weight: bold;
+}
+
+#dvdDetails p, #furnitureDetails p, #booksDetails p {
+    
+    font-size: small;
+    font-weight: bold;
+    padding-top: 5px;
+    font-family: Trebuchet, sans-serif;
+
+}
+
+.dvdAttribute, .furnitureAttribute, .booksAttribute {
+    
+    display: none;
+    
+}
+
+.show {
+    
+    display: block;
+}
+
+.errorDvd, .errorFurniture, .errorBooks {
+    
+    color: red;
+    font-family: Trebuchet, sans-serif;
+    padding-bottom: 5px;
+}
