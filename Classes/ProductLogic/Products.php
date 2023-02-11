@@ -2,8 +2,6 @@
 
     namespace Classes\ProductLogic;
 
-    use Classes\Database\Database;
-
     interface ProductType {
         
         public function validate();
