@@ -12,13 +12,13 @@
         
         public function validate () {
          
-            $field = $_POST['dvd'];
+            $field = trim($_POST['dvd']);
           
-            if (!empty($field)) {
+            if (!empty(preg_match ('/^[0-9]+(\.[0-9]{1,2})?$/', $field))) {
             
                 return TRUE;
             
-            }   
+            }    
         }
         
       }
@@ -27,9 +27,9 @@
         
         public function validate () {
         
-            $field1 = $_POST['height'];
-            $field2 = $_POST['width'];
-            $field3 = $_POST['length'];
+            $field1 = trim(preg_match ('/^[0-9]+(\.[0-9]{1,2})?$/', $_POST['height']));
+            $field2 = trim(preg_match('/^[0-9]+(\.[0-9]{1,2})?$/', $_POST['width']));
+            $field3 = trim(preg_match('/^[0-9]+(\.[0-9]{1,2})?$/', $_POST['length']));
             
             if (!empty($field1) && !empty($field2) && !empty($field3)) {
                 
@@ -43,7 +43,7 @@
         
         public function validate () {
             
-            $field = $_POST['books'];
+            $field = trim(preg_match('/^[0-9]+(\.[0-9]{1,2})?$/', $_POST['books']));
             
             if (!empty($field)) {
                 
@@ -52,4 +52,3 @@
             
         }
     }
-
